@@ -1,0 +1,156 @@
+
+.nav-item{
+    font-size: 15px;
+}
+.button_pl {
+    margin-bottom: 48px;
+    column-gap: 100px;
+    margin-right: -100px;
+    margin-inline-end: -1000px;
+}
+/*navbar part css */
+.nav-tab-button button{
+    margin-bottom: 48px;
+}
+.button{
+    column-gap: 100px;
+    width: 130px;
+    height: 50px;
+    background-color: #7678ed;
+    color: wheat;
+    font-size: 13px;
+}
+.button:hover{
+    
+    border-color: #7678ed;
+    column-gap: 100px;
+    width: 130px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.706);
+    color: rgb(0, 0, 255);
+    font-size: 13px;
+}
+.button_two{
+    border-color: #7678ed;
+    column-gap: 100px;
+    width: 130px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.706);
+    color: rgb(0, 0, 255);
+    font-size: 13px;
+}
+.button_two:hover{
+    
+    column-gap: 100px;
+    width: 130px;
+    height: 50px;
+    background-color: #7678ed;
+    font-size: 13px;
+    color: white;
+}
+.box_no{
+    width: 300px;
+    height: 300px;
+    background-color: #c7bebe;
+}
+
+.Popular-tabs{
+    column-gap: 100px;
+    margin-top: 40px;
+}
+
+.Popular-tabs button{
+    column-gap: 100px;
+    padding: 16px 32px;
+    background-color: transparent;
+    border: none;
+    color: #898998;
+    font-family: "Commissioner" sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #DDDDDD;
+    transition: all linear 0.3s;
+}
+
+.Popular-tabs button:hover{
+    column-gap: 100px;
+    background-color: #7678ed;
+    color: #fff;
+}
+
+.Popular-tabs .btn_button{
+    column-gap: 100px;
+    padding: 16px 32px;
+    background-color: #7678ed;
+    border: none;
+    color: #fff;
+    font-family: "Commissioner" sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #7678ed;
+    transition: all linear 0.3s;
+}
+
+.Popular-item{
+    height: 350px;
+    margin-bottom: 1000px;
+    background-color: #fff;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+.Popular-image{
+    width: 234px;
+    height: 234px;
+    object-fit: cover;
+}
+
+.left-content{
+    margin-left: -20px;
+    color: #1313132c;
+    font-family: "Commissioner" sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.left-content ul{
+    color: #898998;
+    font-family: "Commissioner" sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.playbutton{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #6062c9;
+    color: #6062c9;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-top: -100px;
+    margin-right: -200px;
+}
+
+
+ 
+.lorem_one{
+    font-size: 10px;
+}
+
+.about_one{
+    margin-right: -70px;
+}
+
+.about{
+    background-color: #FAFAFA;
+    height: 550px;
+    width: 1500px;
+}
+
+.Popular{
+    background-color: #FAFAFA;
+    height: Fixed(1,324px);
+}
