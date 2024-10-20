@@ -43,6 +43,14 @@ nav button {
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.4s;
+} 
+
+nav button:hover {
+    background: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
 }
 
 /* ========= navbar End ========= */
@@ -81,6 +89,15 @@ nav button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    border: 1px solid #7678ED;
+    transition: all linear 0.4s;
+}
+
+#banner .container button:hover {
+    padding: 18px 40px;
+    background: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
 }
 
 .Succese {
