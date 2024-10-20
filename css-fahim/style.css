@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Commissioner", sans-serif;
+}
+
+ol, ul {
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: 0px;
+    background-color: transparent;
+}
+
+/* ========= navbar Start ========= */
+
+.navbar {
+    padding: 0 0;
+    padding: 32px 0;
+}
+
+.nav-link {
+    color: #62636C;
+    transition: all linear 0.4s;
+}
+
+.nav-link:hover {
+    color: #7678ED;
+}
+
+nav button {
+    padding: 16px 32px;
+    background: var(--Podcast-Landing-Page-blue, #7678ED);
+    color: #FFF;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+
