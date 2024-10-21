@@ -6,6 +6,7 @@
 
 ol, ul {
     list-style-type: none;
+    padding-left: 0;
 
 }
 
@@ -304,14 +305,18 @@ nav button:hover {
     margin-top: 48px;
 }
 
-#article .article-content .content-box a{
+
+#article .article-content .content-box a {
     color: #F18701;
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 18px;
     display: flex;
     align-items: center;
-    gap: 12px;   
+    gap: 12px;
+    display: inline-block;
+    width: 336px;
+    
 }
 
 #article .article-button button{
@@ -323,6 +328,8 @@ nav button:hover {
     text-align: center;
     background-color: #fff;
    border: 1px solid #7678ED ;
+   margin-top: 48px;
+   
 }
 
 #article .article-button button:hover{

@@ -1,148 +1,5 @@
-
-@media (max-width:575.99px) {
+@media (max-width:575.99px){
     
-    .navbar {
-        padding: 40px 0 0 0;
-    }
-
-    .navbar-toggler {
-        border:none;
-    }
-
-    .navbar-toggler:focus {
-        box-shadow: none;
-    }
-
-    .pic-box {
-        width: 275px;
-        height: 265px;
-        right: 6%;
-    }
-
-    .perform-box {
-        width: 108.343px;
-        height: 118.154px;
-        padding: 11.82px;
-        justify-content: start;
-        top: 47%;
-    }
-
-    .perform .icon img, svg {
-        width: 23.639px;
-        height: 23.639px;
-    }
-
-    .txt h6 {
-        font-size: 6.895px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 7.88px;
-    }
-
-    .txt p {
-        font-size: 8.864px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-    }
-
-    #banner .container h1 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-
-    #banner .container .p {
-        font-size: 14px;
-        line-height: 24px;
-    }
-
-    #banner .container h1 {
-    margin-top: 42px;
-    }
-
-    .Succese span strong {
-        font-size: 36.639px;
-        line-height: 43.966px;
-    }
-
-    .Succese span {
-        margin-right: 0;
-        font-size: 14.655px;
-    }
-
-    #plan{
-        padding-top: 48px;
-        padding-bottom: 48px;
-    }
-    .plan-header h4 {
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .plan-header p {
-        font-size: 12px;
-        padding: 0;
-        margin-top: 16px;
-    }
-    .plan-button{
-        margin-top: 24px;
-    }
-    .price-plans{
-        margin-top: 32px;
-    }
-    .pricing-box{
-        margin-top: 24px;
-    }
-}
-@media (min-width:576px) and (max-width:767px){
-    .plan-header h4 {    
-        font-size: 36px;
-        line-height: 54px;
-    }
-    .plan-header p {
-        font-size: 19px;
-        line-height: 32px;
-        padding: 0;
-        margin-top: 24px;
-    }
-    .pricing-box{
-        margin-top: 24px;
-    }
-}
-@media (min-width:768px) and (max-width:991px){
-    .plan-header h4 {
-        font-size: 52px;
-        line-height: 72px;
-    }
-    .plan-header p {
-        font-size: 22px;
-        line-height: 38px;
-        padding: 0 50px;
-    }
-    .pricing-box{
-        margin-top: 24px;
-    }
-}
-@media (min-width:992px) and (max-width:1199px){
-    .plan-header h4 {
-        font-size: 38px;
-        line-height: 65px;
-    }
-    .plan-header p {
-        font-size: 17px;
-        line-height: 32px;
-        padding: 0;
-    }
-    .pricing-box h4 {
-        font-size: 31px;
-    }
-    .pricing-box p {
-        padding: 0; 
-    }
-    .pricing-box li span {
-        font-size: 14px;
-    }
-
-
     /* ==========service part resposive=========== */
 
     #service .service-left{
@@ -190,7 +47,11 @@
     .article-content {
       margin-top: 24px;
     }
-    
+
+    /* #article .article-content .content-box a {
+       bottom: 11px;
+    }
+     */
     #article .article-content .content-box .content-child-box {
      
       width: 287px;
@@ -220,4 +81,3 @@
       display: none;
     }
 }
-
