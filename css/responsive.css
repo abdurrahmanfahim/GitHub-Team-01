@@ -80,4 +80,13 @@
     .col-lg-4:nth-child(3){
       display: none;
     }
+
+   
 }
+
+@media (min-width:768px) {
+    .eclipse{
+        display: none;
+    }
+}
+

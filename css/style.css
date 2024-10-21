@@ -224,6 +224,7 @@ nav button:hover {
     background-color: #7678ED;
     border: none;
     margin-top: 14px;
+    outline: none;
 }
 
 #service .service-left button:hover{
@@ -328,11 +329,33 @@ nav button:hover {
     text-align: center;
     background-color: #fff;
    border: 1px solid #7678ED ;
-   margin-top: 48px;
+   margin-top: 43px;
    
 }
 
+.eclipse{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.eclipse .e-1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7678ED;
+}
+
+.eclipse .e-1:nth-child(2){
+    background-color: #F2F2F2;
+}
+
+.eclipse .e-1:nth-child(3){
+    background-color: #F2F2F2;
+}
+
 #article .article-button button:hover{
-    background-color: #3538e9;
+    background-color:  #7678ED;
+    color: #FFF;
 }
 /* =======article section end ======== */
