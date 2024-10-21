@@ -1,4 +1,75 @@
-@media (max-width: 575px){
+
+@media (max-width:575.99px) {
+    
+    .navbar {
+        padding: 40px 0 0 0;
+    }
+
+    .navbar-toggler {
+        border:none;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .pic-box {
+        width: 275px;
+        height: 265px;
+        right: 6%;
+    }
+
+    .perform-box {
+        width: 108.343px;
+        height: 118.154px;
+        padding: 11.82px;
+        justify-content: start;
+        top: 47%;
+    }
+
+    .perform .icon img, svg {
+        width: 23.639px;
+        height: 23.639px;
+    }
+
+    .txt h6 {
+        font-size: 6.895px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 7.88px;
+    }
+
+    .txt p {
+        font-size: 8.864px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    #banner .container h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #banner .container .p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    #banner .container h1 {
+    margin-top: 42px;
+    }
+
+    .Succese span strong {
+        font-size: 36.639px;
+        line-height: 43.966px;
+    }
+
+    .Succese span {
+        margin-right: 0;
+        font-size: 14.655px;
+    }
+
     #plan{
         padding-top: 48px;
         padding-bottom: 48px;
@@ -70,4 +141,5 @@
     .pricing-box li span {
         font-size: 14px;
     }
+
 }
