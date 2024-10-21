@@ -142,4 +142,82 @@
         font-size: 14px;
     }
 
+
+    /* ==========service part resposive=========== */
+
+    #service .service-left{
+        margin-top: 24px;
+      }
+    
+    #service .service-left h2 {
+            font-size: 24px;
+            line-height: 36px;
+            max-width: 327px;
+            text-align: center;
+            margin: 0 auto;
+    }
+    
+    #service .service-left p {
+            max-width: 327px;
+            
+            margin: 0 auto;
+            margin-bottom: 24px;
+    }
+    
+    .service-list{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .service-button{
+        text-align: center;
+    }
+
+    /* ================article part responsive============ */
+
+    #article .article-head h3 {
+        font-size: 24px;
+        line-height: 36px;
+        max-width: 327px;
+    }
+    
+    #article .article-head p {
+      max-width: 327px;
+      margin-top: 16px;
+    }
+    
+    
+    .article-content {
+      margin-top: 24px;
+    }
+    
+    #article .article-content .content-box .content-child-box {
+     
+      width: 287px;
+      
+    }
+    
+    #article .article-content .content-box h4 {
+      font-size: 17px;
+      line-height: 27px;
+      margin-top: 20px;
+      margin-bottom: 14px;
+      width: 287px;
+    }
+    
+    #article .article-content .content-box p {
+      font-size: 12px;
+      line-height: 20px;
+      width: 287px;
+      margin-bottom: 21px;
+    }
+    
+    .col-lg-4:nth-child(2){
+     display: none;
+    }
+    
+    .col-lg-4:nth-child(3){
+      display: none;
+    }
 }
+
