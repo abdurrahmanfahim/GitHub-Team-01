@@ -325,4 +325,7 @@ nav button:hover {
    border: 1px solid #7678ED ;
 }
 
+#article .article-button button:hover{
+    background-color: #3538e9;
+}
 /* =======article section end ======== */
