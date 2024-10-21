@@ -1,0 +1,143 @@
+body{
+    font-family: "Commissioner", sans-serif;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+/* Plan Area Start */
+#plan{
+    padding-top: 114px;
+    padding-bottom: 114px;
+}
+.plan-header h4{
+    color:#13132C;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: capitalize;
+}
+.plan-header p{
+    color:  #898998;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 120px;
+    margin-top: 24px;
+}
+.plan-button{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    margin-top: 48px;
+}
+.plan-button button{
+    padding: 16px 32px;
+    background: transparent;
+    border: none;
+    color: #898998;
+    font-weight: 500;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+    transition: all linear 0.3s;
+}
+.plan-button button:hover{
+    background-color: #7678ED;
+    color: #fff;
+}
+.price-plans{
+    margin-top: 48px;
+}
+.pricing-box{
+    background: #fff;
+    box-shadow: 10px 32px 72px rgba(15, 13, 35, 0.1);
+    padding: 24px;
+    transition: all linear 0.3s;
+    cursor: pointer;
+}
+.pricing-box:hover{
+    background: #7678ED;
+}
+.pricing-box:hover h4,
+.pricing-box:hover p,
+.pricing-box:hover .price,
+.pricing-box:hover .price strong,
+.pricing-box:hover .pricing-list span{
+    color: #fff;
+}
+.pricing-box:hover .pricing-list .plan-checkbox{
+    background: #fff;
+    color: #7678ED;
+}
+.pricing-box h4{
+    color:  #13132C;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 24px;
+}
+.pricing-box p{
+    color: #898998;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    padding: 0 50px;
+}
+.pricing-box .price{
+    color:  #898998;
+    font-size: 16px;
+    font-weight: 400;
+}
+.pricing-box .price strong{
+    color:  #13132C;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+.pricing-box ul{
+    margin-top: 30px;
+}
+.pricing-box li{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-bottom: 14px;
+}
+.pricing-box li .plan-checkbox{
+    width: 18px;
+    height: 18px;
+    background: #7678ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 7px;
+    border-radius: 50%;
+}
+.pricing-box li span{
+    color: #13132C;
+    font-size: 16px;
+    font-weight: 400;
+}
+.learn-btn{
+    margin-top: 32px;
+}
+.learn-btn button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #7678ED;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #7678ED;
+    padding: 18px 0;
+    transition: all linear 0.3s;
+}
+.pricing-box:hover .learn-btn{
+    color: #7678ED;
+    background: #fff;
+}
+/* Plan Area End */
