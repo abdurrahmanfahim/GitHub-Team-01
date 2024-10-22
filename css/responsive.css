@@ -90,3 +90,34 @@
     }
 }
 
+@media (max-width:575.99px) {
+    .testimonial-header h4 {
+        line-height: 36px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .quotation::after {
+        width: 253px;
+
+    }
+
+    .testimonial-items {
+        margin-bottom: 24px;
+
+    }
+
+    footer {
+        margin-top: 80px;
+        padding-bottom: 32px;
+    }
+
+    .footer-left p {
+        padding-right: 0px;
+    }
+
+    .footer-lists {
+        margin-top: 32px;
+
+    }
+}
