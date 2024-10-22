@@ -6,6 +6,7 @@
 
 ol, ul {
     list-style-type: none;
+    padding-left: 0;
 
 }
 
@@ -157,12 +158,201 @@ nav button:hover {
     font-weight: 500;
     line-height: normal;
 }
+.pricing-box:hover .learn-btn{
+    color: #7678ED;
+    background: #fff;
+}
+/* Plan Area End */
+
+/* /* =======service css start ===== */
+
+#service{
+    padding: 114px 0;
+}
+
+#service .service-left h2{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 70px ;
+    color: #13132C;
+    max-width: 491px;
+
+}
+
+#service .service-left p{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px ;
+    color: #898998;
+    max-width: 386px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+#service .service-left ul li{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #13132C;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 26px;
+    
+}
+
+#service .service-left ul li i{
+    height: 18px;
+    width: 18px;
+    background-color: #F18701;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7px;
+}
+
+#service .service-left button{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 18px 40px;
+    background-color: #7678ED;
+    border: none;
+    margin-top: 14px;
+    outline: none;
+}
+
+#service .service-left button:hover{
+    background-color: #474aed;
+}
+
+#service .service-right img{
+    width: 100%;
+    top: 5px;
+}
+
+/* =======service css end ======== */
+
+/* =======article css start ======== */
+
+#article{
+    padding: 48px 0;
+    background-color: #FAFAFA;
+}
+
+#article .article-head h3{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #13132C;
+    line-height: 70px;
+    max-width: 593px;
+    margin: 0 auto;
+    text-align: center; 
+    margin-bottom: 24px; 
+}
+
+#article .article-head p{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #898998;
+    line-height: 24px;
+    max-width: 533px;
+    margin: 0 auto; 
+    text-align: center;   
+}
+
+#article .article-content .content-box{
+    padding: 24px;
+    background-color: #fff;
+    box-sizing: border-box;
+      
+}
+
+#article .article-content .content-box .content-child-box {
+    height: 240px;
+    width: 336px;
+    background-color: #C4C4C4;
+}
+
+#article .article-content .content-box h4{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #13132C;
+    line-height: 32px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    width: 336px;
+}
+
+#article .article-content .content-box p{
+    font-family: "Commissioner", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #898998;
+    line-height: 24px;
+    width: 336px;
+  
+}
+
+.article-content{
+    margin-top: 48px;
+}
 
 
+#article .article-content .content-box a {
+    color: #F18701;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    display: inline-block;
+    width: 336px;
+    
+}
 
+#article .article-button button{
+    padding: 18px 40px;
+    color: #7678ED;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    background-color: #fff;
+   border: 1px solid #7678ED ;
+   margin-top: 43px;
+   
+}
 
+.eclipse{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.eclipse .e-1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #7678ED;
+}
 
+.eclipse .e-1:nth-child(2){
+    background-color: #F2F2F2;
+}
 
+.eclipse .e-1:nth-child(3){
+    background-color: #F2F2F2;
+}
 
 
 
@@ -325,3 +515,8 @@ nav button:hover {
     background-color: #FAFAFA;
     padding: 64px 0 64px 0;
 }
+#article .article-button button:hover{
+    background-color:  #7678ED;
+    color: #FFF;
+}
+/* =======article section end ======== */
