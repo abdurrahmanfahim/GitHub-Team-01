@@ -37,6 +37,10 @@ button {
     color: #7678ED;
 }
 
+a:focus, a:hover {
+    text-decoration: none;
+}
+
 nav button {
     padding: 16px 32px;
     background: #7678ED;
