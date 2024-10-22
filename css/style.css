@@ -667,3 +667,208 @@ ol,ul{
     background: #fff;
 }
 /* Plan Area End */
+
+
+/* common css start */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 0.8;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* common css end */
+
+/* testimonial css start */
+#testimonial {
+    padding: 63px;
+}
+
+.testimonial-header h4 {
+    color: #13132c;
+    font-weight: 600;
+    line-height: 70px;
+    font-size: 48px;
+    font-family: "Commissioner", sans-serif;
+    text-transform: capitalize;
+
+}
+
+.testimonial-btn button {
+
+    padding: 16px 32px;
+    background-color: transparent;
+    border: 1px solid #7678ED;
+    color: #7678ED;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    transition: all linear 0.3s;
+}
+
+.testimonial-btn button:hover {
+    background: #7678ED;
+    color: #fff;
+}
+
+.testimonial-parent {
+    margin-top: 56px;
+}
+
+.testimonial-items {
+    padding: 24px;
+    border: 1px solid #dddddd;
+}
+
+.quotation {
+    position: relative;
+}
+
+.quotation::after {
+    content: "";
+    position: absolute;
+    top: 60%;
+    left: 32px;
+    width: 298px;
+    height: 2px;
+    background-color: #dddddd;
+}
+
+.testimonial-items p {
+    color: #62636C;
+    font-family: "Commissioner", sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+.reviewer {
+    column-gap: 16px;
+    margin-top: 32px;
+}
+
+.reviewer .r-image {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+.reviewer .r-details h6 {
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #13132c;
+
+}
+
+.reviewer .r-details span {
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #898998;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+/* testimonial css end */
+
+/* foter css start */
+footer {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #13132c;
+    margin-top: 140px;
+}
+
+.footer-left p {
+    color: #ffffff;
+    opacity: 0.7;
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding-right: 50px;
+    margin-top: 20px;
+
+}
+
+.footer-lists h5 {
+    font-family: "Commissioner", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-lists ul {
+    margin-top: 32px;
+}
+
+
+
+.footer-lists ul li {
+    opacity: 0.7;
+    color: #fff;
+    font-family: "Commissioner", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 24px;
+
+}
+
+.footer-lists ul li :last-child {
+    margin-bottom: 0;
+}
+
+.lists-icons-with-data i {
+
+    font-size: 16px;
+}
+
+.lists-icons-with-data {
+    column-gap: 8px;
+}
+
+.copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    margin-top: 48px;
+    text-align: center;
+}
+
+.copyright span {
+    display: inline-block;
+    margin-top: 24px;
+    font-size: 14px;
+    font-family: "Commissioner", sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* foter css end*/
