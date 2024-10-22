@@ -93,7 +93,6 @@
 
 .Popular-item{
     height: 350px;
-    margin-bottom: 1000px;
     background-color: #fff;
     padding: 24px;
     box-sizing: border-box;
@@ -145,12 +144,13 @@
 }
 
 .about{
+    margin: 0 auto;
+    padding: 64px 0 64px 0;
     background-color: #FAFAFA;
-    height: 550px;
     width: 1500px;
 }
 
 .Popular{
     background-color: #FAFAFA;
-    height: Fixed(1,324px);
+    padding: 64px 0 64px 0;
 }
