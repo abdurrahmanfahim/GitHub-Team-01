@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "../../../OneDrive/Website/class 1"
+		},
+		{
+			"path": "../../../OneDrive/Website/class 2"
+		},
+		{
+			"path": "../../../OneDrive/Website/class 3'"
+		},
+		{
+			"path": "../../../OneDrive/Website/class 4"
+		},
+		{
+			"path": "../../../OneDrive/Website/class 5"
+		},
+		{
+			"path": "../../../OneDrive/Website/New folder"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "class 5"
+	}
+}
